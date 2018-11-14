@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Automation</string>
+    <string name="no_zones">No Zones Added Yet</string>
+    <string name="zone_list">Zone List</string>
+    <string name="add_new_zone">Add New Zone</string>
+    <string name="zone_name">Zone Name</string>
+    <string name="add">add</string>
+    <string name="zone_name_empty">Empty Zone Name Not Allowed</string>
+    <string name="switch_list">Switch List</string>
+    <string name="no_switches">No Switches Added Yet</string>
+    <string name="switch_name">Switch Name</string>
+    <string name="add_new_switch">Add New Switch</string>
+    <string name="switch_url">Switch Url</string>
+    <string name="edit_zone">Edit Zone</string>
+    <string name="update">Update</string>
+    <string name="edit_switch">Edit Switch</string>
+</resources>

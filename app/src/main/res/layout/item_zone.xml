@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_back"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/medium_padding"
+        android:id="@+id/name"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="@dimen/zone_text_size"
+        android:text="Zone"/>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="@dimen/medium_padding"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/edit"
+        android:id="@+id/edit"
+        android:tint="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="@dimen/medium_padding"
+        android:layout_centerVertical="true"
+        android:src="@drawable/delete"
+        android:layout_toStartOf="@+id/edit"
+        android:id="@+id/delete"
+        android:tint="@android:color/holo_red_light"
+        android:layout_marginEnd="@dimen/medium_padding"/>
+
+</RelativeLayout>
